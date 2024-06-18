@@ -20,7 +20,7 @@ const SignupForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let response = await fetch(`http://localhost:3000/api/v1/registration`, {
+      let response = await fetch(`https://demo-auth-backend.onrender.com/registration`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
